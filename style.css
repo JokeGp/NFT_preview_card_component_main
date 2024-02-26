@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    color: blanchedalmond;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background: var(--very-dark-blue-main-bg, #0D192C);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+   
+}
+
+.nftCards{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 15px;
+    background: var(--very-dark-blue-card-bg, #15263F);
+    box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.10);
+    width: 327px;
+    height: 543px;
+    }
+
+.card3429{
+    display: grid;
+}
+
+.nftIcon{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+
+.nftEquilibrium{
+    width: 278px;
+    height: 278px;
+    border-radius: 8px;
+    display: block;
+}
+.nftHover{
+    background-color: var(--Cyan, #00FFF8);
+    width: 278px;
+    height: 278px;
+    position: absolute;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity .15s;
+}
+.nftHover:hover{
+    opacity: .6;
+}
+
+.titulo{
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px;
+    margin-inline-start: 24px;
+}
+
+.nft3429descrpt{
+    color: var(--Soft-Blue, #8BACD9);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Body */
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px; /* 144.444% */
+    margin-inline-start: 24px;
+    margin-bottom: 0px;
+    width: 278px;
+}
+
+.nft3429data{
+    margin-inline-start: 24px;
+    margin-top: 16px;
+    color: var(--Cyan, #00FFF8);
+    font-family: Outfit;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.ethIcon{
+    margin-right: 4px;
+}
+
+.nft3429expDate{
+    color: var(--Soft-Blue, #8BACD9);
+    font-family: Outfit;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-inline-start: 97.82px;
+}
+.clock{
+    margin-right: 4px;
+}
+
+.creadorInfo{
+    margin-inline-start: 24px;
+    border-top: 1px solid #2E405A;
+    width: 278px;
+}
+.creadorPYP{
+    width: 33px;
+    height: 33px;
+    margin-right: 16px;
+    border-radius: 33px;
+    border: 1px solid var(--White, #FFF);
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.creadorInfo p {
+    color: var(--Soft-Blue, #8BACD9);
+    font-family: Outfit;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 31px;
+    display: flex;
+    align-items: center;
+}
+
+.creadorInfo span{
+    color: var(--White, #FFF);
+    font-family: Outfit;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5px;
+}
+
+.creadorInfo span:hover{
+    color: var(--Cyan, #00FFF8);
+
+}
+.titulo:hover{
+    color: var(--Cyan, #00FFF8);
+}
+.nftEquilibrium:hover{
+    background-image: url("images/icon-view.svg");
+}
+
